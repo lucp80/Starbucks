@@ -203,6 +203,145 @@
     color: #006241;
     font-size: 15px;
     margin-top: 15px;
+
 }
 
+@media (min-width: 768px) {
+    .header__container-user-mobile {
+        display: none;
+    }
+
+    .header__container-user {
+        display: block;
+    }
+
+    .header__container-user {
+        color: #fff;
+        font-size: 25px;
+    }
+
+    .header__nav {
+        display: block;
+    }
+
+    .header__nav-link {
+        color: #fff;
+        text-decoration: none;
+        margin-left: 15px;
+    }
+
+    .main__container-logo {
+        display: block;
+    }
+
+    .main__container-logo {
+        width: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .main__logo {
+        width: 80%;
+    }
+
+    .main__texto {
+        width: 50%;
+    }
+
+    .main {
+        display: flex;
+        padding: 15px 30px 60px;
+    }
+
+    .galley {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    .gallery__imagen {
+        width: 30%;
+    }
+
+    .contact__form {
+        width: 400px;
+    }
+
+    .cards {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+
+    .cards__card {
+        width: 45%;
+    }
+
+    .footer {
+        display: flex;
+        justify-content: space-between;
+    }
+}
+
+@media (min-width: 1024px) {
+    .main__logo {
+        width: 350px;
+    }
+
+    .main {
+        padding: 15px 100px 60px;
+    }
+    .gallery__imagen {
+        width: 300px;
+        margin-top: 0;
+        margin-left: 25px;
+    }
+
+    .galley {
+        justify-content: center;
+    }
+    .contact__form{
+        width: 600px;
+    }
+    .contact__email label {
+        font-size: 17x;
+    }
+    .contac__title{
+        font-size: 30px;
+    }
+    .cards__card-button{
+        display: flex;
+        flex-direction: row;
+        margin-left: 15px;
+        width: 50%;
+    }
+    .cards__card{
+        width: 450px;
+        
+    }
+    .footer{
+        height:250px;
+        align-items: center;
+    }
+    .footer__container-user a{
+        font-size: 20px;
+    }
+    .footer__container-social{
+        font-size: 20px;
+    }
+    .footer__container-contact{
+        font-size: 100px;
+    }
+    
+
+
+
+
+
+
+
+
+
+}
 
