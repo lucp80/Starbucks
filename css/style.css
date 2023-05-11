@@ -69,4 +69,17 @@
     display: flex;
     flex-direction: column;
 }
+.galley {
+    background: #006241;
+    padding: 25px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.gallery__imagen {
+    width: 85%;
+    margin-top: 15px;
+}
 
