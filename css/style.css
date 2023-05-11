@@ -42,3 +42,31 @@
     color: #fff;
     font-size: 25px;
 }
+.main__container-logo {
+    display: none;
+}
+
+.main {
+    margin-top: 70px;
+    padding: 15px 15px 60px;
+}
+
+.main__texto-titulo {
+    font-size: 50px;
+    line-height: 1.2;
+}
+
+.main__texto-titulo span {
+    color: #006241;
+}
+
+.main__texto-parrafo {
+    font-weight: bolder;
+    margin-top: 20px;
+}
+
+.main__texto {
+    display: flex;
+    flex-direction: column;
+}
+
