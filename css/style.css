@@ -69,4 +69,140 @@
     display: flex;
     flex-direction: column;
 }
+.galley {
+    background: #006241;
+    padding: 25px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.gallery__imagen {
+    width: 85%;
+    margin-top: 15px;
+}
+.contact {
+    background: #000;
+    padding: 40px 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contac__title {
+    color: #006241;
+    text-align: center;
+    margin-bottom: 25px;
+    font-size: 25px;
+}
+
+.contact__form {
+    background: #006241;
+    padding: 15px;
+    color: #fff;
+    width: 280px;
+}
+
+.contact__email label {
+    font-size: 14x;
+}
+
+.contact__email,
+.contact__coment {
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px;
+}
+
+.contact__email input::placeholder,
+.contact__coment textarea::placeholder {
+    font-size: 10px;
+    color: #006241;
+    font-weight: bolder;
+}
+
+.contact__email input,
+.contact__coment textarea {
+    padding: 5px;
+    border-radius: 7.5px;
+    border: 0;
+}
+
+.contact__email input:focus,
+.contact__coment textarea:focus {
+    background: #000;
+    color: #fff;
+}
+
+.contact__btn-button {
+    background: inherit;
+    border: 1px solid #fff;
+    color: #fff;
+    width: 45%;
+    margin-top: 20px;
+    border-radius: 7.5px;
+    padding: 4px 0;
+    transition: all 0.5s;
+}
+
+.contact__btn-button:hover {
+    background: yellowgreen;
+    border: 1px solid yellowgreen;
+}
+.cards__card-circle {
+    background: yellow;
+    width: 60px;
+    height: 60px;
+    color: #000;
+    font-weight: bold;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    position: absolute;
+    top: -25px;
+    right: -25px;
+}
+.footer {
+    background: #000;
+    padding: 25px 15px;
+}
+
+.footer__container-user {
+    display: flex;
+    flex-direction: column;
+    padding-left: 10px;
+}
+
+.footer__link-user {
+    color: #006241;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+.footer__container-social i {
+    color: #006241;
+    font-size: 20px;
+    margin-left: 10px;
+}
+
+.footer__container-social {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.footer__container-contact a {
+    margin-left: 10px;
+    text-decoration: none;
+    color: #006241;
+    font-size: 15px;
+    margin-top: 15px;
+}
+
 
